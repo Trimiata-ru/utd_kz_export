@@ -13,8 +13,8 @@
           "quantity": 5,
           "nds": "20%",
           "nomenclature_code": "1002300",
-          "price": "2000",
-          "sum_nds": "500.00"
+          "sum": 2000.00,
+          "sum_nds": 500.00
         }
       ]
     },

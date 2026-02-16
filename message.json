@@ -2,8 +2,6 @@
   "document_header": {
     "kassa_kkm": "ККМ ЗАЛ",
     "otvetstvenniy": "Администратор",
-    "kassovaya_smena": "Кассовая смена 00УТ-000581 от 17.05.2025 12:50:58",
-    "nalogooblozhenie": "Продажа облагается НДС",
     "date": "01.01.2024 10:00:00"
   },
   "tables": {
@@ -12,12 +10,10 @@
       "rows": [
         {
           "n": 1,
-          "nomenclature": "Товар 1",
           "quantity": 5,
           "nds": "20%",
-          "seller": "Иванов И.И.",
-          "price_amount": "2000",
-          "nds_amount": 123
+          "nomenclature_code": "1002300",
+          "price": "2000"
         }
       ]
     },
@@ -26,9 +22,9 @@
       "rows": [
         {
           "n": 1,
-          "terminal": "АО “Kaspi Bank”, ТОО \"Тримиата-Казахстан\"",
+          "terminal": "АО “Kaspi Bank”, ТОО "Тримиата-Казахстан"",
           "card_number": "11111111",
-          "amount": 8500
+          "amount": 8500.00
         }
       ]
     },
@@ -38,8 +34,8 @@
         {
           "n": 1,
           "certificate": "CERT-100500",
-          "amount": 1000,
-          "amount_in_certificate_currency": 1000
+          "amount": 1000.00,
+          "amount_in_certificate_currency": 1000.00
         }
       ]
     },
@@ -56,3 +52,4 @@
     }
   }
 }
+

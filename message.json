@@ -2,8 +2,8 @@
   "document_header": {
     "nomer": "00000000001",
     "date": "01.01.2024 10:00:00",
-    "kassa_kkm": "ККМ ЗАЛ",
-    "otvetstvenniy": "Администратор"
+    "sn_kkm": "0987654321",
+    "otvetstvenniy": "Иванов Иван Иванович"
   },
   "tables": {
     "inventory": {
@@ -11,10 +11,10 @@
       "rows": [
         {
           "nomenclature_code": "1002300",
-          "quantity": 5,
+          "quantity": 1,
           "nds": "16%",
-          "sum_nds": 500.00,
-          "sum": 2000.00
+          "sum_nds": 160.00,
+          "sum": 1160.00
         }
       ]
     },
@@ -23,27 +23,7 @@
       "rows": [
         {
           "vid_oplaty": "АО “Kaspi Bank”, ТОО \"Тримиата-Казахстан\"",
-          "sum": 8500.00
-        }
-      ]
-    },
-    "gift_certificates": {
-      "title": "Оплата подарочными сертификатами",
-      "rows": [
-        {
-          "certificate_number": "CERT-100500",
-          "sum": 1000.00
-        }
-      ]
-    },
-    "cash_shift_details": {
-      "title": "Кассовая смена",
-      "rows": [
-        {
-          "document_date": "01.01.2024",
-          "fiscal_device": "'1С:WebKassa'- WEBKASSA_ZB (SWK00411318) на Кассир(DESKTOP-4VUN6OJ)",
-          "start_datetime": "01.01.2024 09:00:00",
-          "end_datetime": "01.01.2024 21:00:00"
+          "sum": 500.00
         }
       ]
     }

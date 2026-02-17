@@ -1,19 +1,20 @@
 {
   "document_header": {
+    "nomer": "00000000001",
+    "date": "01.01.2024 10:00:00",
     "kassa_kkm": "ККМ ЗАЛ",
-    "otvetstvenniy": "Администратор",
-    "date": "01.01.2024 10:00:00"
+    "otvetstvenniy": "Администратор"
   },
   "tables": {
     "inventory": {
       "title": "Товары",
       "rows": [
         {
+          "nomenclature_code": "1002300",
           "quantity": 5,
           "nds": "16%",
-          "nomenclature_code": "1002300",
-          "sum": 2000.00,
-          "sum_nds": 500.00
+          "sum_nds": 500.00,
+          "sum": 2000.00
         }
       ]
     },

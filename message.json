@@ -5,28 +5,19 @@
     "sn_kkm": "0987654321",
     "otvetstvenniy": "Иванов Иван Иванович"
   },
-  "tables": {
-    "inventory": {
-      "title": "Товары",
-      "rows": [
-        {
-          "nomenclature_code": "1002300",
-          "quantity": 1,
-          "nds": "16%",
-          "sum_nds": 160.00,
-          "sum": 1160.00
-        }
-      ]
-    },
-    "card_payments": {
-      "title": "Оплата платежными картами",
-      "rows": [
-        {
-          "vid_oplaty": "АО “Kaspi Bank”, ТОО \"Тримиата-Казахстан\"",
-          "sum": 500.00
-        }
-      ]
+  "inventory": [
+    {
+      "nomenclature_code": "1002300",
+      "quantity": 1,
+      "nds": "16%",
+      "sum_nds": 160.00,
+      "sum": 1160.00
     }
-  }
+  ],
+  "card_payments": [
+    {
+      "vid_oplaty": "АО “Kaspi Bank”, ТОО \"Тримиата-Казахстан\"",
+      "sum": 500.00
+    }
+  ]
 }
-

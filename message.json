@@ -9,7 +9,6 @@
       "title": "Товары",
       "rows": [
         {
-          "n": 1,
           "quantity": 5,
           "nds": "20%",
           "nomenclature_code": "1002300",
@@ -23,7 +22,7 @@
       "rows": [
         {
           "terminal": "АО “Kaspi Bank”, ТОО \"Тримиата-Казахстан\"",
-          "amount": 8500.00
+          "sum": 8500.00
         }
       ]
     },
@@ -31,10 +30,8 @@
       "title": "Оплата подарочными сертификатами",
       "rows": [
         {
-          "n": 1,
-          "certificate": "CERT-100500",
-          "amount": 1000.00,
-          "amount_in_certificate_currency": 1000.00
+          "certificate_number": "CERT-100500",
+          "sum": 1000.00,
         }
       ]
     },
